@@ -7,11 +7,11 @@ from collections import defaultdict
 random.seed(42)
 
 RAW_ROOT = "./orange_dataset"
-OUT_ROOT = "./reduced_dataset"
+OUT_ROOT = "./dataset"
 
 SPLITS = {
-    "train": 0.2, # 20% of original dataset for train
-    "val": 0.05,    # 5% of original dataset for validation
+    "train": 0.8, # 20% of original dataset for train
+    "val": 0.1,    # 5% of original dataset for validation
     "test": 0.1    #10% of original dataset for training
 }
 
